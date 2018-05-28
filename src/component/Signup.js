@@ -10,7 +10,6 @@ class Signup extends Component {
   }
 
   emailChange(event) {
-    console.log(event.target.value)
     this.setState({ email: event.target.value })
   }
 
